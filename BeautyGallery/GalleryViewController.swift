@@ -8,6 +8,7 @@
 
 
 import UIKit
+import Social
 
 class GalleryViewController: UIViewController {
     
@@ -15,6 +16,7 @@ class GalleryViewController: UIViewController {
     var imageName:String?
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationItem.title = imageName
         if imageName != nil{
             image.image = UIImage(named: imageName!)
         }
@@ -26,6 +28,12 @@ class GalleryViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func share(sender: AnyObject) {
+        var controller:SLComposeViewController = SLComposeViewController(forServiceType: SLServiceTypeTwitter)
+        controller.setInitialText("share test")
+        controller.addImage(image.image)
+        self.presentViewController(controller, animated: true, completion: nil)
+    }
     
 }
 
