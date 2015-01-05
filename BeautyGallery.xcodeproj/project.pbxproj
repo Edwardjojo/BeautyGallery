@@ -13,6 +13,8 @@
 		3CA34F9E1A5A51AF00A6E486 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CA34F9D1A5A51AF00A6E486 /* Images.xcassets */; };
 		3CA34FA11A5A51AF00A6E486 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CA34F9F1A5A51AF00A6E486 /* LaunchScreen.xib */; };
 		3CA34FAD1A5A51AF00A6E486 /* BeautyGalleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA34FAC1A5A51AF00A6E486 /* BeautyGalleryTests.swift */; };
+		3CA34FB71A5A597700A6E486 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA34FB61A5A597700A6E486 /* ViewControllerExtension.swift */; };
+		3CA34FB91A5A6A1700A6E486 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA34FB81A5A6A1700A6E486 /* GalleryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		3CA34FA61A5A51AF00A6E486 /* BeautyGalleryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeautyGalleryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CA34FAB1A5A51AF00A6E486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CA34FAC1A5A51AF00A6E486 /* BeautyGalleryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautyGalleryTests.swift; sourceTree = "<group>"; };
+		3CA34FB61A5A597700A6E486 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		3CA34FB81A5A6A1700A6E486 /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				3CA34F961A5A51AF00A6E486 /* AppDelegate.swift */,
 				3CA34F981A5A51AF00A6E486 /* ViewController.swift */,
+				3CA34FB61A5A597700A6E486 /* ViewControllerExtension.swift */,
+				3CA34FB81A5A6A1700A6E486 /* GalleryViewController.swift */,
 				3CA34F9A1A5A51AF00A6E486 /* Main.storyboard */,
 				3CA34F9D1A5A51AF00A6E486 /* Images.xcassets */,
 				3CA34F9F1A5A51AF00A6E486 /* LaunchScreen.xib */,
@@ -213,7 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CA34F991A5A51AF00A6E486 /* ViewController.swift in Sources */,
+				3CA34FB91A5A6A1700A6E486 /* GalleryViewController.swift in Sources */,
 				3CA34F971A5A51AF00A6E486 /* AppDelegate.swift in Sources */,
+				3CA34FB71A5A597700A6E486 /* ViewControllerExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
